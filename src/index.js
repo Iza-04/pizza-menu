@@ -68,6 +68,15 @@ function Header() {
   );
 }
 
+function Pizza({ pizzaObj, key }) {
+  // pizzaObj={pizza} key={pizza.name}
+  return (
+    <div>
+      <h1> test </h1>
+    </div>
+  );
+}
+
 function Menu() {
   const pizzas = pizzaData;
   // const pizzas = [];
